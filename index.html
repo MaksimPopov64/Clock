@@ -81,7 +81,7 @@
          const min = now.getMinutes();
          const minDegrees = min*6+90;
          const hours = now.getHours();
-         const hoursDegrees = hours*60+90;
+         const hoursDegrees = hours*30+90;
          secondHand.style.transform = `rotate(${secondDegrees}deg)`;
          minHand.style.transform = `rotate(${minDegrees}deg)`;
          hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
